@@ -1,0 +1,47 @@
+Link -> https://docs.google.com/document/d/1h_Jm7joLyaFEbj5HmgshDGEAKgMRxE58j4yV6SA1Q8U/edit?usp=sharing
+
+
+
+
+Opis ogólny gry:
+To mobilna gra 3D w Unity (C#), komediowy „symulator codzienności”, gdzie zwykłe domowe życie działa jak seria questów. Gracz wciela się w Klaudię, która musi przygotować dom na wizytę teściowej, ogarniając porządek, zakupy i rodzinne dramki. Humor jest sytuacyjny, a decyzje mają konsekwencje dzięki paskom relacji i plotek.
+Co to za gra?
+Mobilna gra 3D w Unity (z użyciem C#), oparta na krótkich zadaniach i minigrach, idealna na telefon.
+O co chodzi w fabule?
+Grasz Klaudią (mama/żona), która przygotowuje dom na wizytę teściowej. Wydaje się prosto, ale ciągle dzieją się rzeczy, które psują plan i trzeba je szybko ogarniać.
+Postacie (kto miesza w rozgrywce):
+Mikołaj (mąż pracoholik) – pomaga, ale często dopiero po negocjacjach.
+Bruno (młodszy syn) – generuje chaos i emocje.
+Marycha (nastolatka emo) – bywa buntownicza, ale przy dobrych relacjach potrafi pomóc.
+Sąsiadka – obserwuje, komentuje i nakręca plotki.
+Paski stanu – po co są?
+One sprawiają, że twoje wybory naprawdę coś zmieniają:
+Plotka wpływa na utrudnienia i „czepialskość” finału,
+stres męża decyduje, czy w ogóle pomoże,
+energia Bruna zwiększa lub zmniejsza chaos,
+zaufanie Marychy wpływa na to, czy pomaga czy robi dramę,
+porządek domu ma znaczenie w inspekcji.
+Minigry (opisane ogólnie, bez zdradzania kolejności):
+Zakupy z dzieckiem – kupujesz rzeczy z listy, a Bruno może zacząć płakać, jeśli nie dostanie tego, czego chce; to wpływa na plotki i budżet.
+Porządek w domu – krótkie „sprinty” sprzątania: odkładanie rzeczy, chowanie bałaganu, ogarnianie strefy, którą ktoś zobaczy.
+Podwórko i liście – ogarniasz liście dmuchawą, ale sąsiadka patrzy, więc łatwo o komentarze i wzrost plotek.
+Zakupy online + awaria internetu – próbujesz zrobić zamówienie, internet pada i musisz ratować sytuację (samodzielnie albo prosząc męża).
+Negocjacje z mężem – prosisz o pomoc, ale on zwykle chce coś w zamian; wybory w dialogu wpływają na relację i stres.
+Nocne pieczenie „w ciszy” – robisz wypiek i musisz uważać na hałas, bo obudzenie domowników kończy się dramą.
+Paczka / paragon – przychodzi paczka i trzeba ją szybko schować (pudełko albo paragon), żeby nikt nie zauważył.
+Sąsiadka i plotki – rozmowy/zdarzenia, w których możesz uciąć plotkę albo ją nakręcić przez złą odpowiedź.
+Sytuacje publiczne przy sklepie – ktoś komentuje, zaczepia lub ocenia, a twoja reakcja wpływa na reputację i plotki.
+Absurdalne wydarzenia „z życia” – krótkie zręcznościówki z komediową konsekwencją, które potem mogą wrócić w dialogach lub plotkach.
+Losowe wydarzenia (żeby nie było zawsze tak samo):
+Czasem wyskakują niespodzianki (np. paczka, awaria, zaczepka sąsiadki), więc gracz musi się dostosować.
+Zakończenie gry:
+Finałem jest wizyta teściowej i inspekcja domu. Sprawdza różne miejsca, a wynik zależy od porządku, przygotowań oraz relacji w domu i poziomu plotek.
+Co robimy technicznie (krótko i jasno):
+system zadań i eventów w C# (zadanie → minigra → zmiana pasków),
+paski stanu 0–100, które wpływają na trudność i dialogi,
+minigry jako osobne sceny/prefaby,
+proste UI: lista zadań + paski + komunikaty,
+finał zależny od wyników (porządek/plotki/relacje).
+Ton gry:
+Humor sytuacyjny i przerysowana codzienność – bez obrażania i bez umniejszania kobietom,którymi również jesteśmy :))
+
